@@ -363,7 +363,7 @@ TextureImporter:
       213: 5246086772035589962
     second: Sunflower_0
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,6 +383,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -392,8 +394,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -414,10 +416,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -469,6 +475,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3012,6 +3030,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Wheat_2: -6835990972051442076
+      Grapes_0: 7643059469261256143
+      Tomato_0: -6403212856916885531
+      Grapes_2: 3610990061737093296
+      Turnip_5: -163281874789078530
+      Cucumber_0: -7214779071068452208
+      Avocado_2: 1593461840055347495
+      Cassava_0: 1159048942721062834
+      Cucumber_4: 8351194734336753456
+      Tulip_4: 1100895384988309084
+      Melon_0: 5305313321993230688
+      Rose_1: 6328298810840337658
+      Cassava_3: 3708350802738844191
+      Corn_1: -8359980532602110677
+      Grapes_3: 4147005370936988375
+      Pineapple_3: -5785544867113398150
+      Melon_3: 8834424689020278806
+      Lemon_4: -2358309588051066392
+      Strawberry_0: -6313752932661177938
+      Cassava_4: 1325437751038594628
+      Lemon_1: -4479512715898011729
+      Orange_4: 4946406998143646506
+      Sunflower_2: -3042016555449421157
+      Sunflower_5: -9125837625378335052
+      Turnip_0: -3758283684365656437
+      Corn_0: -4752753840283114535
+      Cassava_5: 231382990177506502
+      Coffee_3: 2427582588171955048
+      Sunflower_0: 5246086772035589962
+      Coffee_1: 7220275157492909280
+      Corn_2: -6812683105161507844
+      Wheat_3: 3629835479356537641
+      Tomato_5: -9150622835112388582
+      Eggplant_5: 8613099276131632838
+      Potato_0: -6102785296603301811
+      Turnip_4: 6871966923019712751
+      Wheat_1: -7105404207338529912
+      Cassava_2: -265417493991006996
+      Corn_4: 1444553092138730863
+      Rice_5: -7342140165030989957
+      Wheat_5: 9193209736981154855
+      Lemon_5: -971325912981512032
+      Eggplant_4: 8430081177141003839
+      Avocado_4: -2347345742593382131
+      Rose_4: 4956501523151185122
+      Potato_4: -5138864972509268539
+      Sunflower_4: -2076947225950515439
+      Eggplant_3: -8841241538767150286
+      Lemon_3: 310864443862384765
+      Tulip_5: 239664503416430736
+      Eggplant_2: 8992505847606692284
+      Turnip_3: 3335921633614167124
+      Rice_0: -728365621536560339
+      Corn_3: -4713957164413193925
+      Cucumber_2: -6695496278553347800
+      Coffee_0: -5869159202059768231
+      Cucumber_1: 5296920557377402123
+      Potato_5: -8613120328309815283
+      Grapes_4: 2311561023898289894
+      Rose_3: 6765145340718021666
+      Tomato_3: 5311727958288459099
+      Eggplant_1: 1141382995524452636
+      Melon_4: 5796839822159751442
+      Strawberry_5: 6171633905135862537
+      Cucumber_3: -54211124296079762
+      Eggplant_0: 5479641139906911069
+      Rose_2: 4011131947011268278
+      Turnip_1: -1972800944456881993
+      Strawberry_2: 7634080344865281328
+      Cucumber_5: -7088402679327109166
+      Potato_3: -5129912161558737715
+      Turnip_2: 3415041691073854400
+      Rice_4: -2918568355549063264
+      Melon_5: -1971762054387879977
+      Sunflower_3: -3086867277609260013
+      Orange_5: 846751695074229898
+      Orange_1: -6426865111529653640
+      Tulip_1: 4986658582785683209
+      Avocado_3: -6176446038041102474
+      Coffee_2: 4209799998365980551
+      Rice_3: 8651530843170087377
+      Rice_2: 5541297325559821129
+      Grapes_1: -6604339662363916557
+      Tomato_4: 3376106324329366409
+      Corn_5: -3717749402573906489
+      Pineapple_0: 1594825909468556592
+      Pineapple_1: -6630878892559626616
+      Melon_2: -9019871040505125361
+      Tulip_0: 3357391002829248122
+      Strawberry_4: -2400529641227890843
+      Orange_3: 2250929519456190411
+      Potato_2: -6569451354343527954
+      Avocado_0: -2870286427855002651
+      Wheat_0: 3581331103412681878
+      Avocado_5: -4121779799015333995
+      Avocado_1: -3746787705600128045
+      Orange_0: 3786346274397003460
+      Pineapple_5: 2880136961971434559
+      Pineapple_2: 4141273239195593809
+      Strawberry_1: -6211195225173759111
+      Tomato_1: 8452571618582737884
+      Lemon_2: -9058249767685296186
+      Melon_1: -1317421356879478252
+      Strawberry_3: 3039765806810692146
+      Rose_0: -3502299224474030074
+      Orange_2: 8264023046038307159
+      Tomato_2: 6186829223883662640
+      Cassava_1: 7752993248302403229
+      Coffee_4: -8859221501742313457
+      Sunflower_1: 4604598768723472410
+      Tulip_2: -2799474330712251816
+      Lemon_0: -5615786563814944113
+      Pineapple_4: -7224701772317540327
+      Grapes_5: 8608442526900078241
+      Rice_1: 3911302769694909563
+      Rose_5: -3863539657173946388
+      Wheat_4: 2566550401417383282
+      Potato_1: 7356616379297590612
+      Tulip_3: -8982383974279299072
+      Coffee_5: -5347296349980235180
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

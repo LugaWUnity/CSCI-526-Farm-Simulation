@@ -324,7 +324,7 @@ TextureImporter:
       213: -604992278438157428
     second: crops_tileset_1
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -344,6 +344,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,9 +354,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -375,10 +377,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -418,6 +424,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1465,6 +1483,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      crops_tileset_60: 6874941082423968920
+      crops_tileset_59: 2900594640123204669
+      crops_tileset_51: 1284574709994611370
+      crops_tileset_1: -604992278438157428
+      crops_tileset_61: -8732121254170863012
+      crops_tileset_57: -6525018958862780216
+      crops_tileset_47: -703257721585670892
+      crops_tileset_66: -4835368711781684760
+      _spring: 1134368255623637070
+      crops_tileset_62: -5704692803679079915
+      crops_tileset_54: 4307874276082382691
+      crops_tileset_46: 8930415524649005781
+      crops_tileset_72: -3549840455523256456
+      crops_tileset_65: -4038557028594484634
+      crops_tileset_44: -4082298482933651541
+      house: -3016164981680395756
+      crops_tileset_38: -4415951787192950340
+      crops_tileset_52: 1039978250847359988
+      crops_tileset_75: -4830424365307036890
+      crops_tileset_42: 6753535979983996663
+      crops_tileset_49: 3997108980955941631
+      crops_tileset_67: -8067914219444616860
+      crops_tileset_10: 6809023872087254845
+      crops_tileset_37: 5830628591707927132
+      crops_tileset_58: 917997669024953023
+      crops_tileset_11: 4305497891529071680
+      crops_tileset_55: -6097579237254610636
+      _summer: -7953171364396082078
+      crops_tileset_36: -2377973672347741274
+      crops_tileset_50: -7348693221460941171
+      _autumn: -7841991297397635280
+      __CropLand: -1815016040012399288
+      crops_tileset_43: 1988281867564637339
+      crops_tileset_48: -4501168691204233173
+      crops_tileset_64: 6444683738113782625
+      crops_tileset_39: -1768556834388095445
+      crops_tileset_45: 2619614671278151716
+      crops_tileset_56: 6569310239167135690
+      crops_tileset_30: 5229693645634857436
+      crops_tileset_35: 1432257687957558655
+      crops_tileset_63: 8003703142163429398
+      crops_tileset_73: 2693218611460176161
+      crops_tileset_0: -460983840361103832
+      crops_tileset_31: 4338618252745578610
+      crops_tileset_53: 683223192855335497
+      crops_tileset_40: 6203234452975714639
+      crops_tileset_74: -7628016347215949799
+      crops_tileset_41: 6199652614100895808
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

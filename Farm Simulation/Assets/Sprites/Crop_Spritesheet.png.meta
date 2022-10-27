@@ -363,7 +363,7 @@ TextureImporter:
       213: 5246086772035589962
     second: Crop_Spritesheet_119
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -383,6 +383,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -391,9 +393,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -414,10 +416,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -445,6 +451,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2988,6 +3018,127 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Crop_Spritesheet_0: -163281874789078530
+      Crop_Spritesheet_36: 8613099276131632838
+      Crop_Spritesheet_59: -728365621536560339
+      Crop_Spritesheet_63: -6835990972051442076
+      Crop_Spritesheet_87: -6569451354343527954
+      Crop_Spritesheet_51: 4141273239195593809
+      Crop_Spritesheet_96: 846751695074229898
+      Crop_Spritesheet_99: 8264023046038307159
+      Crop_Spritesheet_74: 3039765806810692146
+      Crop_Spritesheet_81: -265417493991006996
+      Crop_Spritesheet_13: 8351194734336753456
+      Crop_Spritesheet_105: 1593461840055347495
+      Crop_Spritesheet_9: 4011131947011268278
+      Crop_Spritesheet_22: 4986658582785683209
+      Crop_Spritesheet_90: -5347296349980235180
+      Crop_Spritesheet_116: -3086867277609260013
+      Crop_Spritesheet_26: 5311727958288459099
+      Crop_Spritesheet_4: -1972800944456881993
+      Crop_Spritesheet_29: -6403212856916885531
+      Crop_Spritesheet_117: -3042016555449421157
+      Crop_Spritesheet_98: 2250929519456190411
+      Crop_Spritesheet_69: 3610990061737093296
+      Crop_Spritesheet_83: 1159048942721062834
+      Crop_Spritesheet_53: 1594825909468556592
+      Crop_Spritesheet_11: -3502299224474030074
+      Crop_Spritesheet_15: -6695496278553347800
+      Crop_Spritesheet_28: 8452571618582737884
+      Crop_Spritesheet_110: -4713957164413193925
+      Crop_Spritesheet_35: 5305313321993230688
+      Crop_Spritesheet_114: -9125837625378335052
+      Crop_Spritesheet_103: -2347345742593382131
+      Crop_Spritesheet_100: -6426865111529653640
+      Crop_Spritesheet_88: 7356616379297590612
+      Crop_Spritesheet_112: -8359980532602110677
+      Crop_Spritesheet_57: 5541297325559821129
+      Crop_Spritesheet_65: 3581331103412681878
+      Crop_Spritesheet_108: -3717749402573906489
+      Crop_Spritesheet_76: -6211195225173759111
+      Crop_Spritesheet_25: 3376106324329366409
+      Crop_Spritesheet_78: 231382990177506502
+      Crop_Spritesheet_82: 7752993248302403229
+      Crop_Spritesheet_66: 8608442526900078241
+      Crop_Spritesheet_14: -54211124296079762
+      Crop_Spritesheet_23: 3357391002829248122
+      Crop_Spritesheet_67: 2311561023898289894
+      Crop_Spritesheet_19: 1100895384988309084
+      Crop_Spritesheet_32: 8834424689020278806
+      Crop_Spritesheet_49: -7224701772317540327
+      Crop_Spritesheet_48: 2880136961971434559
+      Crop_Spritesheet_71: 7643059469261256143
+      Crop_Spritesheet_92: 2427582588171955048
+      Crop_Spritesheet_38: -8841241538767150286
+      Crop_Spritesheet_89: -6102785296603301811
+      Crop_Spritesheet_39: 8992505847606692284
+      Crop_Spritesheet_79: 1325437751038594628
+      Crop_Spritesheet_107: -2870286427855002651
+      Crop_Spritesheet_111: -6812683105161507844
+      Crop_Spritesheet_52: -6630878892559626616
+      Crop_Spritesheet_40: 1141382995524452636
+      Crop_Spritesheet_5: -3758283684365656437
+      Crop_Spritesheet_119: 5246086772035589962
+      Crop_Spritesheet_64: -7105404207338529912
+      Crop_Spritesheet_95: -5869159202059768231
+      Crop_Spritesheet_27: 6186829223883662640
+      Crop_Spritesheet_73: -2400529641227890843
+      Crop_Spritesheet_118: 4604598768723472410
+      Crop_Spritesheet_68: 4147005370936988375
+      Crop_Spritesheet_56: 8651530843170087377
+      Crop_Spritesheet_77: -6313752932661177938
+      Crop_Spritesheet_42: -971325912981512032
+      Crop_Spritesheet_80: 3708350802738844191
+      Crop_Spritesheet_7: 4956501523151185122
+      Crop_Spritesheet_20: -8982383974279299072
+      Crop_Spritesheet_45: -9058249767685296186
+      Crop_Spritesheet_109: 1444553092138730863
+      Crop_Spritesheet_93: 4209799998365980551
+      Crop_Spritesheet_2: 3335921633614167124
+      Crop_Spritesheet_10: 6328298810840337658
+      Crop_Spritesheet_113: -4752753840283114535
+      Crop_Spritesheet_101: 3786346274397003460
+      Crop_Spritesheet_8: 6765145340718021666
+      Crop_Spritesheet_115: -2076947225950515439
+      Crop_Spritesheet_60: 9193209736981154855
+      Crop_Spritesheet_75: 7634080344865281328
+      Crop_Spritesheet_106: -3746787705600128045
+      Crop_Spritesheet_44: 310864443862384765
+      Crop_Spritesheet_6: -3863539657173946388
+      Crop_Spritesheet_91: -8859221501742313457
+      Crop_Spritesheet_54: -7342140165030989957
+      Crop_Spritesheet_18: 239664503416430736
+      Crop_Spritesheet_43: -2358309588051066392
+      Crop_Spritesheet_84: -8613120328309815283
+      Crop_Spritesheet_12: -7088402679327109166
+      Crop_Spritesheet_47: -5615786563814944113
+      Crop_Spritesheet_1: 6871966923019712751
+      Crop_Spritesheet_86: -5129912161558737715
+      Crop_Spritesheet_24: -9150622835112388582
+      Crop_Spritesheet_16: 5296920557377402123
+      Crop_Spritesheet_50: -5785544867113398150
+      Crop_Spritesheet_34: -1317421356879478252
+      Crop_Spritesheet_72: 6171633905135862537
+      Crop_Spritesheet_58: 3911302769694909563
+      Crop_Spritesheet_61: 2566550401417383282
+      Crop_Spritesheet_31: 5796839822159751442
+      Crop_Spritesheet_55: -2918568355549063264
+      Crop_Spritesheet_33: -9019871040505125361
+      Crop_Spritesheet_21: -2799474330712251816
+      Crop_Spritesheet_41: 5479641139906911069
+      Crop_Spritesheet_70: -6604339662363916557
+      Crop_Spritesheet_85: -5138864972509268539
+      Crop_Spritesheet_102: -4121779799015333995
+      Crop_Spritesheet_94: 7220275157492909280
+      Crop_Spritesheet_17: -7214779071068452208
+      Crop_Spritesheet_3: 3415041691073854400
+      Crop_Spritesheet_46: -4479512715898011729
+      Crop_Spritesheet_37: 8430081177141003839
+      Crop_Spritesheet_62: 3629835479356537641
+      Crop_Spritesheet_97: 4946406998143646506
+      Crop_Spritesheet_104: -6176446038041102474
+      Crop_Spritesheet_30: -1971762054387879977
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

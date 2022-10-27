@@ -87,7 +87,7 @@ TextureImporter:
       213: 21300054
     second: Loading-F 27
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -107,6 +107,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,8 +118,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -138,10 +140,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -181,6 +187,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
@@ -792,6 +822,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Loading-F 3: 21300006
+      Loading-F 9: 21300018
+      Loading-F 13: 21300026
+      Loading-F 26: 21300052
+      Loading-F 18: 21300036
+      Loading-F 19: 21300038
+      Loading-F 1: 21300002
+      Loading-F 12: 21300024
+      Loading-F 14: 21300028
+      Loading-F 17: 21300034
+      Loading-F 24: 21300048
+      Loading-F 0: 21300000
+      Loading-F 15: 21300030
+      Loading-F 5: 21300010
+      Loading-F 8: 21300016
+      Loading-F 4: 21300008
+      Loading-F 27: 21300054
+      Loading-F 2: 21300004
+      Loading-F 25: 21300050
+      Loading-F 20: 21300040
+      Loading-F 6: 21300012
+      Loading-F 11: 21300022
+      Loading-F 16: 21300032
+      Loading-F 21: 21300042
+      Loading-F 23: 21300046
+      Loading-F 7: 21300014
+      Loading-F 22: 21300044
+      Loading-F 10: 21300020
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
